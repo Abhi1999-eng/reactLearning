@@ -1,12 +1,13 @@
 import React from "react";
-import  pi, {DoublePI, TriplePI} from "./Math";
+import  add, {subtract, multiply, divide} from "./Calculator";
 export default function Lists() {
     return (
         <div>
             <ul>
-                <li>{pi()}</li>
-                <li>{DoublePI()}</li>
-                <li>{TriplePI()}</li>
+                <li>{add(1, 2)}</li>
+                <li>{subtract(7, 2)}</li>
+                <li>{multiply(2, 3)}</li>
+                <li>{divide(5, 2)}</li>
             </ul>
         </div>
     );
