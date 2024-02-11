@@ -14,4 +14,6 @@ function TriplePI() {
     return pi*3;
 }
 
-export { PI, DoublePI, TriplePI };
+export default PI;
+
+export {DoublePI, TriplePI };
